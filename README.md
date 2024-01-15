@@ -11,7 +11,7 @@ Zubitube Downloader is a standalone GUI software that allows you to download vid
 - **User-Selected Download Location**: Save your downloaded videos to a location of your choice.
 
 ## Screenshots
-![Zubitube Downloader](ZUBI.jpg)
+![Zubitube Downloader](ZUBI.PNG)
 
 ## How to Use
 
