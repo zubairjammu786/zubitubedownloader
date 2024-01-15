@@ -11,7 +11,7 @@ Zubitube Downloader is a standalone GUI software that allows you to download vid
 - **User-Selected Download Location**: Save your downloaded videos to a location of your choice.
 
 ## Screenshots
-![Zubitube Downloader](ZUBI.png)
+![Zubitube Downloader](ZUBI.jpg)
 
 ## How to Use
 
@@ -22,12 +22,12 @@ Zubitube Downloader is a standalone GUI software that allows you to download vid
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/zubairjammu786/youtubedownloader/releases) page.
+1. Download the latest release from the [Releases](https://github.com/zubairjammu786/zubitubedownloader/releases) page.
 2. Unzip the downloaded file to a location of your choice.
 3. Run the executable file to start using Zubitube Downloader.
 
 ## Feedback
 
-If you encounter any issues or have suggestions for improvement, please feel free to [open an issue](https://github.com/zubairjammu786/youtubedownloader/issues) on GitHub.
+If you encounter any issues or have suggestions for improvement, please feel free to [open an issue](https://github.com/zubairjammu786/zubitubedownloader/issues) on GitHub.
 
 We hope you enjoy using Zubitube Downloader!
