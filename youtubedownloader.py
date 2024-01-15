@@ -88,7 +88,7 @@ Donate to Project</a>
         self.layout.addWidget(coffee_label)
 
         # Footer Link
-        footer_label = QLabel("<a href='https://www.facebook.com/zubairjammu786' style='color: #0000FF;'>Made by Zubair Jammu</a>")
+        footer_label = QLabel("<a href='https://github.com/zubairjammu786/zubitubedownloader' style='color: #0000FF;'>Made by Zubair Jammu</a>")
         footer_label.setOpenExternalLinks(True)
         footer_label.setAlignment(Qt.AlignCenter)
         self.layout.addWidget(footer_label)
