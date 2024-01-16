@@ -1,6 +1,6 @@
 # Zubitube Downloader
 
-Zubitube Downloader is a standalone GUI software that allows you to download videos from YouTube with ease. It comes with a range of features to enhance your downloading experience.
+Zubitube Downloader is a standalone GUI software that allows you to download videos from YouTube with ease. It comes with a range of features to enhance your downloading experience.[Download Now](https://github.com/zubairjammu786/zubitubedownloader/releases/tag/v1.0.0)
 
 ## Features
 
