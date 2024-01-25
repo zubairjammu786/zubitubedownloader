@@ -6,10 +6,10 @@
     <title>Zubitube Downloader</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
             color: #333;
         }
 
@@ -24,39 +24,50 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
-        h1 {
+        h1, h2 {
             color: #333;
         }
 
-        a {
-            color: #007bff;
+        .cta {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
             text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background-color: #0056b3;
         }
 
-        img {
+        .features-list, .usage-steps, .installation-steps {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li, .usage-steps li, .installation-steps li {
+            margin-bottom: 10px;
+        }
+
+        .screenshot img {
             max-width: 100%;
             height: auto;
             margin-top: 20px;
             display: block;
-        }
-
-        button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
         }
     </style>
 </head>
@@ -66,10 +77,12 @@
     </header>
 
     <section>
-        <p>Zubitube Downloader is a standalone GUI software that allows you to download videos from YouTube with ease. It comes with a range of features to enhance your downloading experience. <a href="https://github.com/zubairjammu786/zubitubedownloader/releases/tag/v1.0.0">Download Now</a></p>
+        <div class="cta">
+            <p>Zubitube Downloader is a standalone GUI software that allows you to download videos from YouTube with ease. It comes with a range of features to enhance your downloading experience. <a href="https://github.com/zubairjammu786/zubitubedownloader/releases/tag/v1.0.0" class="btn">Download Now</a></p>
+        </div>
 
         <h2>Features</h2>
-        <ul>
+        <ul class="features-list">
             <li><strong>Single/Multiple URL Support:</strong> Download videos from a single URL or multiple URLs at once.</li>
             <li><strong>Video Quality Selection:</strong> Choose the video quality that suits your needs.</li>
             <li><strong>MP3 Only Downloader:</strong> Extract audio from videos and download them as MP3 files.</li>
@@ -78,25 +91,27 @@
         </ul>
 
         <h2>Screenshots</h2>
-        <img src="ZUBI.PNG" alt="Zubitube Downloader">
+        <div class="screenshot">
+            <img src="ZUBI.PNG" alt="Zubitube Downloader">
+        </div>
 
         <h2>How to Use</h2>
-        <ol>
+        <ol class="usage-steps">
             <li>Enter the URL(s) of the video(s) you want to download.</li>
             <li>Select the desired video quality or choose to download as an MP3.</li>
             <li>Choose the location where you want to save the downloaded video(s).</li>
-            <li>Click the <button id="downloadButton">Download</button> button to start the download process.</li>
+            <li><button id="downloadButton" class="btn">Download Now</button></li>
         </ol>
 
         <h2>Installation</h2>
-        <ol>
-            <li>Download the latest release from the <a href="https://github.com/zubairjammu786/zubitubedownloader/releases">Releases</a> page.</li>
+        <ol class="installation-steps">
+            <li>Download the latest release from the <a href="https://github.com/zubairjammu786/zubitubedownloader/releases" class="link">Releases</a> page.</li>
             <li>Unzip the downloaded file to a location of your choice.</li>
             <li>Run the executable file to start using Zubitube Downloader.</li>
         </ol>
 
         <h2>Feedback</h2>
-        <p>If you encounter any issues or have suggestions for improvement, please feel free to <a href="https://github.com/zubairjammu786/zubitubedownloader/issues">open an issue</a> on GitHub.</p>
+        <p>If you encounter any issues or have suggestions for improvement, please feel free to <a href="https://github.com/zubairjammu786/zubitubedownloader/issues" class="link">open an issue</a> on GitHub.</p>
 
         <p>We hope you enjoy using Zubitube Downloader!</p>
     </section>
