@@ -14,6 +14,13 @@ Zubitube Downloader is a standalone GUI software that allows you to download vid
 ## Screenshots
 ![Zubitube Downloader](ZUBI.PNG)
 
+## prerequisite
+1. For python file
+  - Pytube
+  - PyQT5
+2. For Exe file ( from release )
+  - No need anything
+
 ## How to Use
 
 1. Enter the URL(s) of the video(s) you want to download.
